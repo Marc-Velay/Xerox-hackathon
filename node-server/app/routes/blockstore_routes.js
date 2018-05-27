@@ -35,4 +35,12 @@ module.exports = function(app) {
     console.log('files: '+filelist)
     res.send(filelist);
   });
+
+
+  app.get('/download/:file(*)',(req, res) => {
+    var file = req.params.file;
+    var fileLocation = path.join(storageDir,file);
+    console.log(fileLocation);
+    res.download(fileLocation, file);
+  });
 };
