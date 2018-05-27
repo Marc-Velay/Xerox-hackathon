@@ -27,14 +27,12 @@ module.exports = function(app) {
   });
 
   app.get("/itemlist", function(req, res) {
-    var filelist = new Array();
-    fs.readdir(storageDir, (err, files) => {
-      files.forEach(file => {
-        filelist.push(file)
-        console.log(file);
-      });
+    filelist = [];
+    fs.readdirSync(storageDir).forEach(file => {
+      filelist.push(file)
+      console.log(file);
     })
-    console.log(filelist)
+    console.log('files: '+filelist)
     res.send('get em yourself ' + filelist);
   });
 };

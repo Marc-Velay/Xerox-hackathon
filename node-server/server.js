@@ -19,7 +19,7 @@ app.use(function(req, res, next) {
 app.use(bodyParser.urlencoded({ extended: true }));
 
 require('./app/routes')(app, {});
-const port = 8001
-app.listen(port, () => {
-  console.log('Example app listening on port ' + port);
+const port = 30003
+app.listen(port, "0.0.0.0", () => {
+  console.log('App listening on port ' + port);
 });
