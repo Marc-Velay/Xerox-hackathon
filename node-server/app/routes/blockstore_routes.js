@@ -33,6 +33,6 @@ module.exports = function(app) {
       console.log(file);
     })
     console.log('files: '+filelist)
-    res.send('get em yourself ' + filelist);
+    res.send(filelist);
   });
 };
