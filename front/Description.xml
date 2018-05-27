@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<displayText xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.xerox.com/office/cui/displaytext/1">
+	<label>Blockstore</label>
+	<description>Appli Test</description>
+	<vendor>mad</vendor>
+	<version>0.1</version>	
+</displayText>
+

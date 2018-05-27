@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Registration Version="1.0" ClientVersion="3.0.03" Client="EIP Registration Client" Date="8/21/2013">
+<Name xmlns="http://www.xerox.com/webservices/office/cuiregistration/1">Pull Print App</Name>
+<Description xmlns="http://www.xerox.com/webservices/office/cuiregistration/1">This sample app created by the Xerox EIP SDK Team</Description>
+<VendorName xmlns="http://www.xerox.com/webservices/office/cuiregistration/1">Solutions</VendorName>
+<SmallIconUrl xmlns="http://www.xerox.com/webservices/office/cuiregistration/1">http://YOUR_SERVER_NAME/PullPrintApp/PullPrint.png</SmallIconUrl>
+<ToolsIconUrl xmlns="http://www.xerox.com/webservices/office/cuiregistration/1">http://YOUR_SERVER_NAME/PullPrintApp/PullPrint.png</ToolsIconUrl>
+<Url xmlns="http://www.xerox.com/webservices/office/cuiregistration/1">http://YOUR_SERVER_NAME/PullPrintApp/PullPrint.html</Url>
+<DescriptionUrl xmlns="http://www.xerox.com/webservices/office/cuiregistration/1">http://YOUR_SERVER_NAME/PullPrintApp/description.xml</DescriptionUrl>
+<AllowSoftKeypad xmlns="http://www.xerox.com/webservices/office/cuiregistration/1">False</AllowSoftKeypad>
+<Uses xmlns="http://www.xerox.com/webservices/office/cuiregistration/1" /><BrowserType>secondGenEIPBrowser</BrowserType></Registration>
